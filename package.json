@@ -6,12 +6,16 @@
     "dev": "next dev -p 3000  --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.2.23",
     "react": "^18",
     "react-dom": "^18"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "next lint --fix"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
