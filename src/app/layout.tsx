@@ -23,7 +23,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  cons1
+  cons
   return (
     <html lang="en">
       <body
